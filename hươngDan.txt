@@ -1,0 +1,47 @@
+bây giờ mình hướng dẫn bạn sử dụng nhé
+đầu tiên chú ý hai file chính là rpExp.xlsm và Data Process.exe
+Hai file này không được xóa
+---> BOM
+tiếp theo file BOM
+	Tên file bom phải có cụm BOM ở đầu
+	tên sheet là DM
+	Nói chung forrmat giống file mẫu nhé
+
+---> Đóng Thuế 
+	File cho vào folder dongThue
+	Phải xóa file cũ đi
+	tên sheet phải là dongThue nhé
+----> Miễn Thuế
+	File cho vào folder mienThue
+	Phải xóa file cũ đi
+	tên sheet phải là mienThue nhé	
+----> TC 
+	tên file là TC
+	tên Sheet là TC
+	cho vào folder tc
+---------------Sử dụng tool :
+----> Mở file rpExp.xlsm
+----> Ấn Xử Lí BOM
+	Quá trình này mất 2-4 phút hoặc lâu hơn 1 chút
+	kiên nhẫn đợi
+	chạy xong sẽ báo ON và tạo ra file data.xlsx
+	cứ chạy lần lượt từ trái qua phải nhé
+----> Ấn xử lí data để cop dữ liệu từ file data.xlsx vào
+----> Tiếp theo ấn Gop Ma SP để lọc trùng mã SP
+----> Ấn Mien Thue để cop data file Miễn THuế vào
+----> Ấn ĐÓng thuế để cop data file đóng thuế vào
+----> Ấn TC để cop file tc vào
+----> Cuối cùng ấn xuất báo cáo để gọi form chọn mã SP
+copy TC bị lỗi nên sẽ bị OFF , và ko mở đc form
+lỗi này lỗi nhỏ nên tạm mình cho ON để demo
+ấn chọn hết mã sp là sẽ chọn hết các mã , 
+sau đó ấn report n sẽ xuất report tất cả
+nhưng khuyến cáo là k ấn nhé , n mất nhiều thời gian lắm 
+lỡ ấn thì bạn ấn tổ hợp phím (Ctrl + Page Break) để dừng
+---> còn xuất báo cáo cụm file thì chọn các file cần xuất ( ấn Ctrl rồi click )
+phải đợi nhé
+----> trong quá trình chạy bạn thấy file excel vẫn đang nháy , là n đang tính toán đó
+nên kệ n nhé
+bấm vào lúc nào sẽ treo máy đó
+mình đang đặt đếm time cho mỗi lần xong 1 file nên bị ngắt quãng, xem xong video này
+là sửa hết rồi nhé =)))
